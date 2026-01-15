@@ -189,6 +189,7 @@ main h2{
 }
 
 .section-2 .image{
+    display: flex;
     width: 404px;
     height: 270px;
     margin-top: 40px;
@@ -281,6 +282,56 @@ footer{
         flex-direction: column;
         text-align: center;
     }
+
+    .nav-items{
+        text-align: center;
+        margin: auto;
+        margin-top: 40px;
+        margin-right: 80px;
+    }
+
+    .icons{
+        width: 88px;
+        margin: 0 auto;
+        margin-top: 80px;
+       flex-direction: column; 
+        
+    }
+
+    .card-container{
+        grid-template-columns: repeat(1,1fr);
+    }
     
+    .section-2{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .section-2 .image{
+        width: 100%;
+    }
+    .section-2 .image img{
+        width: 100%;
+    }
+
+    .section-2 .features p{
+        text-align: center;
+        width:100%;
+    }
+
+    .container h1{
+        width: 100%;
+    }
+    .container p{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .container button{
+        margin-bottom: 50px;
+    }
+
+    .see-more{
+       text-align: center;
+    }
 
 }
